@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FC4544ED067AC4E65775789 /* Pods_testcloudkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF24F21BC5E86FC1134C6E5 /* Pods_testcloudkit.framework */; };
+		681A36F01C673C5700AB58BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681A36EF1C673C5700AB58BB /* QuartzCore.framework */; };
+		681A36F21C673CFE00AB58BB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 681A36F11C673CFE00AB58BB /* SVProgressHUD.bundle */; };
+		681A36F61C6746F900AB58BB /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681A36F51C6746F900AB58BB /* AddListViewController.swift */; };
 		68B4F1B41C67295B00961F26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B4F1B31C67295B00961F26 /* AppDelegate.swift */; };
-		68B4F1B61C67295B00961F26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B4F1B51C67295B00961F26 /* ViewController.swift */; };
+		68B4F1B61C67295B00961F26 /* testCloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B4F1B51C67295B00961F26 /* testCloudViewController.swift */; };
 		68B4F1B91C67295B00961F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B4F1B71C67295B00961F26 /* Main.storyboard */; };
 		68B4F1BB1C67295B00961F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B4F1BA1C67295B00961F26 /* Assets.xcassets */; };
 		68B4F1BE1C67295B00961F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B4F1BC1C67295B00961F26 /* LaunchScreen.storyboard */; };
+		68B4F1C71C6729A100961F26 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B4F1C61C6729A100961F26 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		328661C869F089A38E23B3D1 /* Pods-testcloudkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testcloudkit.release.xcconfig"; path = "Pods/Target Support Files/Pods-testcloudkit/Pods-testcloudkit.release.xcconfig"; sourceTree = "<group>"; };
+		681A36EF1C673C5700AB58BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		681A36F11C673CFE00AB58BB /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = testcloudkit/SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		681A36F51C6746F900AB58BB /* AddListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
 		68B4F1B01C67295B00961F26 /* testcloudkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testcloudkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B4F1B31C67295B00961F26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68B4F1B51C67295B00961F26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68B4F1B51C67295B00961F26 /* testCloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCloudViewController.swift; sourceTree = "<group>"; };
 		68B4F1B81C67295B00961F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68B4F1BA1C67295B00961F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68B4F1BD1C67295B00961F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68B4F1BF1C67295B00961F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B4F1C51C67298C00961F26 /* testcloudkit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = testcloudkit.entitlements; sourceTree = "<group>"; };
+		68B4F1C61C6729A100961F26 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		E5C706CFF2C95F296401AAEB /* Pods-testcloudkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testcloudkit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testcloudkit/Pods-testcloudkit.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF24F21BC5E86FC1134C6E5 /* Pods_testcloudkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testcloudkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +42,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681A36F01C673C5700AB58BB /* QuartzCore.framework in Frameworks */,
+				68B4F1C71C6729A100961F26 /* CloudKit.framework in Frameworks */,
+				3FC4544ED067AC4E65775789 /* Pods_testcloudkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05831A1BBAB7F4E53C880DFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				681A36EF1C673C5700AB58BB /* QuartzCore.framework */,
+				ECF24F21BC5E86FC1134C6E5 /* Pods_testcloudkit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6160DD3CDE7823E003FB663C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C706CFF2C95F296401AAEB /* Pods-testcloudkit.debug.xcconfig */,
+				328661C869F089A38E23B3D1 /* Pods-testcloudkit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		68B4F1A71C67295B00961F26 = {
 			isa = PBXGroup;
 			children = (
+				681A36F11C673CFE00AB58BB /* SVProgressHUD.bundle */,
+				68B4F1C61C6729A100961F26 /* CloudKit.framework */,
 				68B4F1B21C67295B00961F26 /* testcloudkit */,
 				68B4F1B11C67295B00961F26 /* Products */,
+				6160DD3CDE7823E003FB663C /* Pods */,
+				05831A1BBAB7F4E53C880DFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +92,14 @@
 		68B4F1B21C67295B00961F26 /* testcloudkit */ = {
 			isa = PBXGroup;
 			children = (
+				68B4F1C51C67298C00961F26 /* testcloudkit.entitlements */,
 				68B4F1B31C67295B00961F26 /* AppDelegate.swift */,
-				68B4F1B51C67295B00961F26 /* ViewController.swift */,
+				68B4F1B51C67295B00961F26 /* testCloudViewController.swift */,
 				68B4F1B71C67295B00961F26 /* Main.storyboard */,
 				68B4F1BA1C67295B00961F26 /* Assets.xcassets */,
 				68B4F1BC1C67295B00961F26 /* LaunchScreen.storyboard */,
 				68B4F1BF1C67295B00961F26 /* Info.plist */,
+				681A36F51C6746F900AB58BB /* AddListViewController.swift */,
 			);
 			path = testcloudkit;
 			sourceTree = "<group>";
@@ -71,9 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68B4F1C21C67295B00961F26 /* Build configuration list for PBXNativeTarget "testcloudkit" */;
 			buildPhases = (
+				6691515AC03A6AB3AA8AEC30 /* Check Pods Manifest.lock */,
 				68B4F1AC1C67295B00961F26 /* Sources */,
 				68B4F1AD1C67295B00961F26 /* Frameworks */,
 				68B4F1AE1C67295B00961F26 /* Resources */,
+				204E1A2B9E6B61786650D1A8 /* Embed Pods Frameworks */,
+				08EC4B54B4CD94722CCBBEB7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +139,12 @@
 				TargetAttributes = {
 					68B4F1AF1C67295B00961F26 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NYDDP6T22K;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681A36F21C673CFE00AB58BB /* SVProgressHUD.bundle in Resources */,
 				68B4F1BE1C67295B00961F26 /* LaunchScreen.storyboard in Resources */,
 				68B4F1BB1C67295B00961F26 /* Assets.xcassets in Resources */,
 				68B4F1B91C67295B00961F26 /* Main.storyboard in Resources */,
@@ -130,12 +180,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08EC4B54B4CD94722CCBBEB7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testcloudkit/Pods-testcloudkit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		204E1A2B9E6B61786650D1A8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testcloudkit/Pods-testcloudkit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6691515AC03A6AB3AA8AEC30 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68B4F1AC1C67295B00961F26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68B4F1B61C67295B00961F26 /* ViewController.swift in Sources */,
+				681A36F61C6746F900AB58BB /* AddListViewController.swift in Sources */,
+				68B4F1B61C67295B00961F26 /* testCloudViewController.swift in Sources */,
 				68B4F1B41C67295B00961F26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,23 +344,41 @@
 		};
 		68B4F1C31C67295B00961F26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C706CFF2C95F296401AAEB /* Pods-testcloudkit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = testcloudkit/testcloudkit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = testcloudkit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_MAP_FILE_PATH = "";
+				PODS_FRAMEWORK_BUILD_PATH = "$(BUILD_DIR)/Pods-testcloudkit";
+				"PODS_FRAMEWORK_BUILD_PATH[arch=*]" = "$(BUILD_DIR)/Pods-testcloudkit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appgator.cloudkit.testcloudkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		68B4F1C41C67295B00961F26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328661C869F089A38E23B3D1 /* Pods-testcloudkit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = testcloudkit/testcloudkit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = testcloudkit/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_MAP_FILE_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				"PODS_FRAMEWORK_BUILD_PATH[arch=*]" = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-testcloudkit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appgator.cloudkit.testcloudkit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +401,7 @@
 				68B4F1C41C67295B00961F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
